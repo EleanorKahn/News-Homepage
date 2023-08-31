@@ -2,7 +2,7 @@ import React from 'react';
 
 const FooterList = () => {
     return (
-        <div className='footer-articles-container'>
+        <div className='footer-container'>
             <ol className='footer-article-list'>
                 {/* render dynamically so that you can add new data */}
                 <li>
