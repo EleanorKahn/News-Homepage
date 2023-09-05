@@ -10,10 +10,15 @@ General Styles
     --veryDarkBlue: hsl(240, 100%, 5%);
     font-size: 15px;
     font-weight: 400;
+    font-family: 'Inter', 'sans-serif';
 }
 
 p {
     color: var(--darkGrayishBlue);
+}
+
+h4 {
+    font-size: 1.25rem;
 }
 
 .App {
@@ -52,12 +57,13 @@ Main Article Styles
 */
 
 .main-article {
-
+    display: flex;
 }
 
 .article-title {
     font-weight: 800;
     font-size: 4rem;
+    /* letter-spacing: .15rem; */
 }
 
 .article-description {
@@ -67,8 +73,11 @@ Main Article Styles
 .read-more {
     background-color: var(--softRed);
     color: var(--offWhite);
-    padding: 1rem;
-    letter-spacing: .25rem;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    letter-spacing: .1rem;
+    font-size: 1rem;
+    border: none;
 }
 
 /*
