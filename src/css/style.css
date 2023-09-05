@@ -9,6 +9,11 @@ General Styles
     --darkGrayishBlue: hsl(236, 13%, 42%);
     --veryDarkBlue: hsl(240, 100%, 5%);
     font-size: 15px;
+    font-weight: 400;
+}
+
+p {
+    color: var(--darkGrayishBlue)
 }
 
 /*
@@ -26,11 +31,12 @@ Header Styles
 
 .nav-list {
     display: flex;
+    flex-flow: row wrap;
     list-style-type: none;
 }
 
 .nav-item {
-
+    color: var(--darkGrayishBlue)
 }
 
 /*
@@ -42,7 +48,7 @@ Main Article Styles
 }
 
 .article-title {
-
+    font-weight: 800;
 }
 
 .article-description {
@@ -54,15 +60,21 @@ Sidebar Styles
 */
 
 .sidebar {
+    background-color: var(--veryDarkBlue);
+}
 
+.sidebar-title {
+    font-weight: 800;
+    color: var(--softOrange);
 }
 
 .sidebar-article-title {
-
+    font-weight: 700;
+    color: var(--offWhite)
 }
 
 .article-description {
-
+    color: var(--grayishBlue)
 }
 
 /*
@@ -70,7 +82,7 @@ Footer List Styles
 */
 
 .footer-container {
-
+    display:
 }
 
 .footer-article-list {
@@ -78,7 +90,7 @@ Footer List Styles
 }
 
 .footer-article-title {
-
+    font-weight: 700;
 }
 
 .footer-article-description {
