@@ -13,7 +13,7 @@ General Styles
 }
 
 p {
-    color: var(--darkGrayishBlue)
+    color: var(--darkGrayishBlue);
 }
 
 /*
@@ -36,7 +36,7 @@ Header Styles
 }
 
 .nav-item {
-    color: var(--darkGrayishBlue)
+    color: var(--darkGrayishBlue);
 }
 
 /*
@@ -61,6 +61,7 @@ Sidebar Styles
 
 .sidebar {
     background-color: var(--veryDarkBlue);
+    padding: 1rem;
 }
 
 .sidebar-title {
@@ -70,11 +71,13 @@ Sidebar Styles
 
 .sidebar-article-title {
     font-weight: 700;
-    color: var(--offWhite)
+    color: var(--offWhite);
 }
 
 .article-description {
-    color: var(--grayishBlue)
+    color: var(--grayishBlue);
+    margin-block-end: 1.5rem;
+    border-bottom: .25rem;
 }
 
 /*
@@ -82,15 +85,17 @@ Footer List Styles
 */
 
 .footer-container {
-    display:
+    
 }
 
 .footer-article-list {
-
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .footer-article-title {
     font-weight: 700;
+    color: var(--veryDarkBlue);
 }
 
 .footer-article-description {
