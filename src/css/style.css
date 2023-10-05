@@ -86,12 +86,21 @@ Sidebar Styles
 
 .sidebar {
     background-color: var(--veryDarkBlue);
-    padding: 1rem;
+    padding-block: .25rem;
+}
+
+.sidebar-article {
+    border-bottom: 1px var(--grayishBlue) solid;
+}
+
+.sidebar-article:last-child {
+    border-bottom: none;
 }
 
 .sidebar-title {
     font-weight: 800;
     color: var(--softOrange);
+    font-size: 2rem;
 }
 
 .sidebar-article-title {
