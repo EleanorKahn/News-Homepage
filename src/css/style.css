@@ -86,31 +86,40 @@ Sidebar Styles
 
 .sidebar {
     background-color: var(--veryDarkBlue);
-    padding-block: .25rem;
-}
-
-.sidebar-article {
-    border-bottom: 1px var(--grayishBlue) solid;
-}
-
-.sidebar-article:last-child {
-    border-bottom: none;
+    /* why is adding 1px of padding giving me way more than 1px of padding in the browser? Investigate */
+    padding-block: 1px;
 }
 
 .sidebar-title {
     font-weight: 800;
     color: var(--softOrange);
     font-size: 2rem;
+    padding: 0rem;
+    margin: 0rem;
 }
+
+.sidebar-article {
+    border-bottom: .75px var(--grayishBlue) solid;
+    margin-inline: 1.5rem;
+
+}
+
+.sidebar-article:last-child {
+    border-bottom: none;
+}
+
 
 .sidebar-article-title {
     font-weight: 700;
     color: var(--offWhite);
+    padding: 0rem;
+    margin: 0rem;
 }
 
 .article-description {
     color: var(--grayishBlue);
-    margin-block-end: 1.5rem;
+    margin: 0rem;
+    padding: 0rem;
     
 }
 
